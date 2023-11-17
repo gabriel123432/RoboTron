@@ -1,7 +1,11 @@
-const robotron = document.querySector("robotron")
+const subtrair = document.querySector("#subtrair")
+const soma = document.querySector("#somar")
+const braco = documnt.querySector("#braco")
 
-robotron.addEventListener("click, dizOi")
+somar.addEventListener("click", (evento) => {
+braco.value = parseInt(braco.value) + 1
+})
 
-fuction dizOi(){
-    console.log("oi")
-}
+subtrair.addEventListener("click", (evento)=> {
+    braco.value = parseInt(braco.value) - 1
+ })
